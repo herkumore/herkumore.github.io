@@ -1,0 +1,97 @@
+.poem {
+  background: black;
+  border-radius: 10px;
+}
+
+.poem-content > span {
+  opacity: 0;
+  margin: 3px;
+  position: relative;
+  color: darkgreen;
+}
+
+#span1 {
+  animation: fadein 8s;
+  animation-delay: 2s;
+}
+
+#span2 {
+  animation: fadein 8s;
+  animation-delay: 4s;
+}
+
+#span3 {
+  animation: fadein 8s;
+  animation-delay: 6s;
+}
+
+#span4 {
+  animation: fadein 4s;
+  animation-delay: 8s;
+}
+
+#span5 {
+  animation: fadein 6s;
+  animation-delay: 10s;
+}
+
+#span6 {
+  animation: fadein 6s;
+  animation-delay: 12s;
+}
+
+#span7 {
+  animation: fadein 4s;
+  animation-delay: 14s;
+}
+
+#span8 {
+  animation: fadein 8s;
+  animation-delay: 16s;
+}
+
+#span9{
+  animation: fadein2 8s;
+  animation-delay: 20s;
+  animation-fill-mode: forwards;
+}
+
+#input {
+  width: 40px;
+  opacity: 0;
+  animation: fadein2 8s;
+  animation-delay: 21s;
+  animation-fill-mode: forwards;
+  background-color: gray;
+}
+
+#sicher {
+  animation: fadein2 8s;
+  animation-delay: 22s;
+  animation-fill-mode: forwards;
+}
+
+#falsch {
+  opacity: 1;
+}
+
+#richtig {
+  opacity: 0;
+  color: white;
+}
+
+#richtig > span {
+  color: darkgreen;
+}
+
+.indizien {
+  border: solid 3px grey;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.hide {
+  background-color: white;
+  cursor: pointer;
+}

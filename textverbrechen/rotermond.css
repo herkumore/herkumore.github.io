@@ -1,0 +1,89 @@
+.poem, .poem h3 {
+  background-color: black;
+  border-radius: 10px;
+  color: Gray;
+}
+
+.poem-content {
+  height: 500px;
+}
+
+@keyframes fadein {
+  0% {opacity: 0;}
+  30% {opacity: 1;}
+  70% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.strich {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 12s;
+  animation-delay: 2s;
+}
+
+.keinMord {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 8s;
+  animation-delay: 6s;
+}
+
+.aber {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 12s;
+  animation-delay: 15s;
+}
+
+.mord {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 8s;
+  animation-delay: 15.5s;
+}
+
+.nicht {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 8s;
+  animation-delay: 19s;
+}
+
+.mond {
+  position: relative;
+  opacity: 0;
+  margin: 3px;
+  right: 50px;
+  animation: fadein 7s;
+  animation-delay: 20s;
+}
+
+
+
+.moon {
+  position: absolute;
+  margin-top: 90px;
+  padding: 60px;
+  border: solid black 2px;
+  border-radius: 50%;
+  background-color: lightGray;
+  opacity: 0;
+  animation: fadein 90s;
+  animation-timing-function: ease-in;
+  animation-delay: 14s;
+  transition: all 2s;
+}
+
+/* @keyframes explode {
+  from {padding: 60px; background-color: lightGray;}
+  to {padding: 1000px; background-color: red; opacity: 1; margin: 0}
+} */
+
+.moon:hover {
+  /* animation: explode 1s;
+  animation-fill-mode: forwards; */
+  padding: 600px;
+  background-color: red;
+  opacity: 1;
+}

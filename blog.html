@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Über mich</title>
+    <title>Blog</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
@@ -17,9 +17,10 @@
           <ul>
             <li><a href="textverbrechen/textverbrechen.html">Textverbrechen</a></li>
             <li><a href="haiku/haiku.html">Haikus im Fenster<a></li>
+          
           </ul>
         </li>
-          <li><a href="">Weitere Texte</a></li>
+          <li><a href="blog.html">Weitere Texte</a></li>
         </ul>
         <ul id="header-nav">
           <li><a href="about.html">Über mich</a></li>
@@ -29,27 +30,45 @@
     </div><!--header -->
 
     <div id="content">
-      <div class="container">
+      <div class="post-container">
         <div class="post">
-            <h1>Über mich</h3>
-              <div class="about-content">
-                <img src="img/lutz.png">
-                <p>Ich bin Lutz.</p>
-                <p>Ich schreibe...</p>
-              </div> <!-- about-content -->
-        </div> <!-- about -->
-      </div> <!-- container -->
-    </div> <!-- content -->
+          <div class="post-author">
+            <img src="/home/lutz/Documents/blog/geist.jpeg">
+            <span>Geist</span>
+          </div>
+          <p class="post-date">Heute</p>
+          <h3 class="post-title">Zweiter Post</h3>
+          <div class="post-content">
+            <p>Nimmt es Formen an, oder nicht?</p>
+            <p>So viel: Alles, was ihr hier seht, ist vorläufig.</p>
+          </div>
+        </div>
+      </div>
+      <div class="post-container">
+        <div class="post">
+          <div class="post-author">
+            <img src="/home/lutz/Documents/blog/lutz1.jpeg">
+            <span>Lutz</span>
+          </div>
+          <p class="post-date">Gestern</p>
+          <h3 class="post-title">Mein erster Post</h3>
+          <div class="post-content">
+            <p>Ich weiß noch nicht genau, hier alles stehen wird, aber es ist ein erster Schritt.</p>
+            <p>So viel: Vielleicht ein interaktives Literatur-Projekt, das von den <em><strong>Möglichkeiten</strong></em> im Web-Development Gebrauch macht.</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="footer">
       <div class="container">
-        <!--div class="column">
+        <div class="column">
           <h4>My Links</h4>
           <p>
             <a href="">Twitter<a/>
             <br>
             <a href="">Facebook</a>
           </p>
-        </div-->
+        </div>
         <div class="column">
           <h4>Über mich</h4>
           <p>Hier steht bald etwas über mich und dieses Projekt.</p>

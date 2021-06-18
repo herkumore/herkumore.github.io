@@ -1,0 +1,45 @@
+.gegenwart1 {
+  color: blue;
+  background-color: yellow;
+  border: solid black 3px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.gegenwart2 {
+  color: red;
+  background-color: green;
+  border: solid black 3px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.gegenwart3 {
+  color: white;
+  background-color: black;
+  border: solid black 3px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.gegenwart4 {
+  color: pink;
+  background-color: brown;
+  border: solid black 3px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#gegenwart {
+  margin-bottom: 30px;
+}
+
+button {
+  margin-top: 100px;
+}
+
+#count {
+  position: fixed;
+  margin: 50px 90px;
+  font-size: 30px;
+}

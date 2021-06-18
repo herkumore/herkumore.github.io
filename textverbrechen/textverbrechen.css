@@ -1,0 +1,368 @@
+@keyframes dark {
+  0% {}
+  5% {background-color: black;}
+  95% {background-color: black;}
+  100% {}
+}
+
+.nacht1 {
+  border-radius: 10px;
+  animation: dark 49.5s;
+  animation-delay: 4s;
+}
+
+@keyframes dark2 {
+  0% {}
+  25% {background-color: black;}
+  75% {background-color: black;}
+  100% {}
+}
+
+.nacht2 {
+  border-radius: 10px;
+  animation: dark2 90s;
+  animation-delay: 83s;
+}
+
+@keyframes fadein {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+#eswird {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 2s;
+}
+
+#schlaf {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 6s;
+  animation-delay: 10s;
+}
+
+@keyframes fadezzz {
+  0% {opacity: 0;}
+  50% {opacity: 0.4;}
+  100% {opacity: 0;}
+}
+
+#zzz {
+  opacity: 0;
+  margin-left: 200px;
+  animation: fadezzz 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 12s;
+  color: #f2f2f2;
+}
+
+#aber {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 6s;
+  animation-delay: 20s;
+}
+
+#schritt1 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 4s;
+  animation-delay: 25s;
+}
+
+#schritt2 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 4s;
+  animation-delay: 29s;
+}
+
+#schritt3 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 5s;
+  animation-delay: 33s;
+}
+
+@keyframes fadein2 {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#mann1 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 5.5s;
+  animation-delay: 37s;
+  animation-fill-mode: forwards;
+}
+
+#mann2 {
+  opacity: 0;
+  margin: 3px 1px 3px 3px;
+  animation: fadein 7s;
+  animation-delay: 41.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes schuss {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  51% {left: 0px; color: #555;}
+  52% {left: 150px; color: red;}
+  100% {opacity: 0; left: 150px;}
+}
+
+#schuss {
+  opacity: 0;
+  position: relative;
+  margin: 1px;
+  animation: schuss 7s;
+  animation-delay: 41.5s;
+  animation-fill-mode: forwards;
+}
+
+/*
+@keyframes bright {
+  0% {}
+  5% {background-color: #f2f2f2;}
+  95% {background-color: #f2f2f2;}
+  100% {}
+}
+
+#tag {
+  animation: bright 60s;
+  animation-delay: 30s;
+}
+*/
+
+
+#eswird2 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 49s;
+}
+
+#leiche1 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 53s;
+}
+
+#leiche2 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 57s;
+}
+
+#detektiv1 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 61s;
+}
+
+#detektiv2 {
+  opacity: 0;
+  margin: 3px 1px 3px 0;
+  animation: fadein 9s;
+  animation-delay: 65s;
+}
+
+@keyframes gruen {
+  0% {opacity: 0;}
+  8% {opacity: 1;}
+  25% {color: green; opacity: 1;}
+  100% {opacity: 0;}
+}
+
+#leichegruen {
+  opacity: 0;
+  font-weight: bold;
+  margin: 3px;
+  animation: gruen 50s;
+  animation-delay: 67s;
+  animation-fill-mode: forwards;
+}
+
+#rand {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 7s;
+  animation-delay: 73s;
+}
+
+#verwest1 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 80s;
+}
+
+#verwest2 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 85s;
+}
+
+#verwest3 {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 90s;
+}
+
+#was {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein2 3s;
+  animation-delay: 98s;
+  animation-fill-mode: forwards;
+}
+
+#schlecht {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein 9s;
+  animation-delay: 97s;
+}
+
+@keyframes fadein3 {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  80% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+#erschrocken {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein3 9s;
+  animation-delay: 102s;
+}
+
+#erschrocken2 {
+  opacity: 0;
+  margin: 3px 0 3px 0;
+  animation: fadein3 7s;
+  animation-delay: 104s;
+}
+
+#ende {
+  opacity: 0;
+  margin: 3px;
+  animation: fadein2 5s;
+  animation-delay: 112s;
+  animation-fill-mode: forwards;
+}
+
+.poem-content button {
+  margin-top: 15px;
+  margin-right: 10px;
+  opacity: 0;
+  animation: fadein2 2s;
+  animation-delay: 102s;
+  animation-fill-mode: forwards;
+}
+
+.nacht3 {
+  background-color: black;
+}
+
+#p1, #p2, #p3 {
+  opacity: 0;
+  margin: 0 3px;
+  animation: fadein 10s;
+  animation-delay: 1s;
+}
+
+
+#p4 {
+  opacity: 0;
+  margin: 10px 3px;
+  animation: fadein 5s;
+  animation-delay: 10s;
+}
+
+#p5 {
+  opacity: 0;
+  margin: 0 3px;
+  animation: fadein 5s;
+  animation-delay: 14s;
+}
+
+#p6 {
+  opacity: 0;
+  margin: 0 3px;
+  animation: fadein 5s;
+  animation-delay: 15s;
+}
+
+#p7 {
+  opacity: 0;
+  margin: 3px;
+  margin-top: 5px;
+  animation: fadein 15s;
+  animation-delay: 18s;
+}
+
+#button3 {
+  opacity: 0;
+  margin: 3px;
+  margin-top: 5px;
+  animation: fadein2 6s;
+  animation-delay: 21s;
+}
+
+.green {
+  color: green;
+  opacity: 0;
+  margin: 0 3px;
+  animation: fadein 7s;
+}
+
+#q1 {
+  animation-delay: 2s;
+}
+
+#q2 {
+  animation-delay: 5s;
+}
+
+#q3 {
+  animation-delay: 8s;
+}
+
+#q4 {
+  margin-top: 10px;
+  animation-delay: 14s;
+}
+
+#q5 {
+  animation-delay: 17s;
+}
+
+#q6 {
+  animation-delay: 20s;
+}
+
+#q7 {
+  margin-top: 10px;
+  animation-delay: 27s;
+}
+
+#button4 {
+  opacity: 0;
+  margin: 3px;
+  margin-top: 5px;
+  animation: fadein2 6s;
+  animation-delay: 29s;
+  animation-fill-mode: forwards;
+}
