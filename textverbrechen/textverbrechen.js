@@ -96,7 +96,7 @@ function endeSchlafen () {
   var node4 = document.createElement("p");
   node4.setAttribute("id", "q4");
   node4.setAttribute("class", "green");
-  var text4 = document.createTextNode("Denn nur wer ruht, kann auf dieser Erde friedlich leben");
+  var text4 = document.createTextNode("Denn nur wer ruht, kann friedlich leben");
   node4.appendChild(text4);
   document.getElementById("ende1").appendChild(node4);
 
@@ -110,7 +110,7 @@ function endeSchlafen () {
   var node6 = document.createElement("p");
   node6.setAttribute("id", "q6");
   node6.setAttribute("class", "green");
-  var text6 = document.createTextNode("Leben zu nehmen oder zu geben");
+  var text6 = document.createTextNode("Leben zu geben oder zu nehmen");
   node6.appendChild(text6);
   document.getElementById("ende1").appendChild(node6);
 
