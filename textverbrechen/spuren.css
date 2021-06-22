@@ -21,12 +21,12 @@
 }
 
 #span3 {
-  animation: fadein 8s;
+  animation: fadein 6s;
   animation-delay: 6s;
 }
 
 #span4 {
-  animation: fadein 4s;
+  animation: fadein 6s;
   animation-delay: 8s;
 }
 
@@ -41,7 +41,7 @@
 }
 
 #span7 {
-  animation: fadein 4s;
+  animation: fadein 6s;
   animation-delay: 14s;
 }
 
@@ -50,9 +50,14 @@
   animation-delay: 16s;
 }
 
-#span9{
+#span9 {
+  animation: fadein 8s;
+  animation-delay: 18s;
+}
+
+#span10{
   animation: fadein2 8s;
-  animation-delay: 20s;
+  animation-delay: 22s;
   animation-fill-mode: forwards;
 }
 
@@ -60,14 +65,14 @@
   width: 40px;
   opacity: 0;
   animation: fadein2 8s;
-  animation-delay: 21s;
+  animation-delay: 23s;
   animation-fill-mode: forwards;
   background-color: gray;
 }
 
 #sicher {
   animation: fadein2 8s;
-  animation-delay: 22s;
+  animation-delay: 24s;
   animation-fill-mode: forwards;
 }
 

@@ -1,7 +1,8 @@
 .poem {
   background: black;
   border-radius: 10px;
-  height: 900px;
+  height: 3800px;
+  text-align: center;
 }
 
 .poem-content span {
@@ -12,11 +13,23 @@
 
 @keyframes down {
   0% {top: 0; opacity: 0;}
-  20% {top: 0; opacity: 1;}
-  95% {opacity: 1;}
-  100% {top: 900px; opacity: 0;}
+  7% {opacity: 1;}
+  10% {top: 0;}
+  /* 82% {top: 90rem;} */
+  85% {top: 118rem;}
+  /* 93% {top: 125rem;} */
+  98% {opacity: 1;}
+  100% {top: 3800px; opacity: 0;}
 }
 
+#du {
+  position: relative;
+  padding-top: 300px;
+  animation: down 42s;
+  animation-delay: 8.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
 
 #span1 {
   animation: fadein 8s;
@@ -28,17 +41,11 @@
   animation-delay: 8s;
 }
 
-#du {
-  position: relative;
-  left: 4.2rem;
-  animation: down 15s;
-  animation-delay: 8.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
+.left {
+  right: 7rem;
 }
 
 .right {
-  position: relative;
   left: 7rem;
 }
 
@@ -49,50 +56,200 @@
 
 #span4, #span5 {
   animation: fadein 4s;
-  animation-delay: 15s;
+  animation-delay: 18s;
   top: 5rem;
 }
 
 #span6, #span7 {
   animation: fadein 4s;
-  animation-delay: 16.6s;
+  animation-delay: 21s;
   top: 7rem;
 }
 
 #span8, #span9 {
   animation: fadein 4s;
-  animation-delay: 17.5s;
-  top: 10rem;
+  animation-delay: 24s;
+  top: 16rem;
+}
+
+/* #span12 {
+  animation: fadein 4s;
+  animation-delay: 28s;
+  top: 26rem;
+} */
+
+@keyframes schussRechts {
+  0% {left: 0; opacity: 0; color: #555;}
+  50% {opacity: 1;}
+  80% {opacity: 0;}
+  100% {left: 200px; color: red;}
+}
+
+@keyframes schussLinks {
+  0% {right: 0; opacity: 0; color: #555;}
+  50% {opacity: 1;}
+  80% {opacity: 0;}
+  100% {right: 200px; color: red;}
+}
+
+#schuss1 {
+  animation: schussRechts 1s;
+  animation-delay: 29s;
+  top: 27rem;
+}
+
+#schuss2 {
+  animation: schussLinks 1s;
+  animation-delay: 29.2s;
+  top: 30rem;
+  right: 20rem;
+}
+
+#schuss3 {
+  animation: schussRechts 1s;
+  animation-delay: 29.4s;
+  top: 33rem;
+}
+
+#schuss4 {
+  animation: schussLinks 1s;
+  animation-delay: 29.6s;
+  top: 36rem;
+  right: 20rem;
+}
+
+#schuss5 {
+  animation: schussRechts 1s;
+  animation-delay: 29.8s;
+  top: 39rem;
+}
+
+#schuss6 {
+  animation: schussLinks 1s;
+  animation-delay: 30s;
+  top: 42rem;
+  right: 20rem;
 }
 
 #span10, #span11 {
   animation: fadein 4s;
-  animation-delay: 18.5s;
-  top: 14rem;
+  animation-delay: 33s;
+  top: 48rem;
 }
 
-#span12, #span13 {
-  animation: fadein 4s;
-  animation-delay: 20s;
-  top: 18rem;
+.leiche {
+  color: darkGreen;
+  animation: fadein 6s;
 }
 
-#span14, #span15 {
-  animation: fadein 4s;
-  animation-delay: 21s;
-  top: 22rem;
+#l1 {
+  animation-delay: 36s;
+  top: 56rem;
 }
 
-#span17, #span16 {
+#l2 {
+  animation-delay: 36.5s;
+  top: 58rem;
+  left: 9rem;
+}
+
+#l3 {
+  animation-delay: 37s;
+  top: 60rem;
+  right: 2rem;
+}
+
+#l4 {
+  animation-delay: 37.5s;
+  top: 62rem;
+  left: 5rem;
+}
+
+#l5 {
+  animation-delay: 38s;
+  top: 68rem;
+  font-size: 5rem;
+  right: 3rem;
+}
+
+
+#span13, #span14 {
   animation: fadein 4s;
-  animation-delay: 21.5s;
-  top: 26rem;
+  animation-delay: 40s;
+  top: 76rem;
+}
+
+#span15, #span16 {
+  animation: fadein 4s;
+  animation-delay: 41.5s;
+  top: 84rem;
+}
+
+#span17, #span18 {
+  animation: fadein 4s;
+  animation-delay: 43.1s;
+  top: 89rem;
+}
+
+#span19, #span20 {
+  animation: fadein 4s;
+  animation-delay: 44.5s;
+  top: 95rem;
+}
+
+#span21, #span22 {
+  animation: fadein 4s;
+  animation-delay: 44.9s;
+  top: 103rem;
+}
+
+#span23, #span24 {
+  animation: fadein 4s;
+  animation-delay: 45.3s;
+  top: 110rem;
+}
+
+#span25, #span26 {
+  animation: fadein 4s;
+  animation-delay: 45.8s;
+  top: 119rem;
+}
+
+#span27, #span28 {
+  animation: fadein 4s;
+  animation-delay: 45.9s;
+  top: 129rem;
+}
+
+#span29, #span30 {
+  animation: fadein 4s;
+  animation-delay: 46.3s;
+  top: 140rem;
+}
+
+#span31, #span32 {
+  animation: fadein 4s;
+  animation-delay: 46.7s;
+  top: 152rem;
+}
+
+#span33, #span34 {
+  animation: fadein 4s;
+  animation-delay: 47.1s;
+  top: 165rem;
+}
+
+#span35 {
+  animation: fadein 8s;
+  animation-delay: 53s;
+  top: 169rem;
+  color: darkGreen;
 }
 
 #neu {
   position: relative;
   animation: fadein2 6s;
-  animation-delay: 26s;
+  animation-delay: 57s;
   animation-fill-mode: forwards;
-  top: 26rem;
+  top: 174rem;
 }
